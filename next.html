@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>推薦的歌曲</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      background-image: url("img/背景.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      position: relative;
+      z-index: 0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      margin-top: 60px;
+      color: #e91e63;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 60px 0;
+    }
+
+    .songs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      margin-top: 40px;
+    }
+
+    .song {
+      background: rgba(255, 240, 250, 0.95);
+      padding: 30px;
+      border-radius: 20px;
+      width: 500px;
+      box-shadow: 0 6px 18px rgba(255, 182, 193, 0.4);
+      text-align: center;
+    }
+
+    .song img {
+      width: 450px;
+      height: 450px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .song p {
+      margin: 18px 0 14px;
+      font-size: 26px;
+      font-weight: bold;
+      color: #e91e63;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .links a {
+      background-color: #ff69b4;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 16px;
+      text-decoration: none;
+      transition: transform 0.2s, background-color 0.2s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .links a:hover {
+      background-color: #ff85c1;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>推薦的歌曲</h1>
+
+    <div class="songs">
+      <div class="song">
+        <img src="img/fukakouryoku.jpg" alt="不可幸力">
+        <p>不可幸力</p>
+        <div class="links">
+          <a href="https://music.apple.com/jp/song/%E4%B8%8D%E5%8F%AF%E5%B9%B8%E5%8A%9B/1706828344" target="_blank">Apple Music</a>
+          <a href="https://youtu.be/Gbz2C2gQREI?si=SZ3fxcejj06vn3Js2" target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="song">
+        <img src="img/hadakanoyuusya.jpg" alt="裸の勇者">
+        <p>裸の勇者</p>
+        <div class="links">
+          <a href="https://music.apple.com/jp/song/%E8%A3%B8%E3%81%AE%E5%8B%87%E8%80%85/1600223385" target="_blank">Apple Music</a>
+          <a href="https://youtu.be/FT0GKCuSaW0?si=YrixHUYZCGGz0gTx3" target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="song">
+        <img src="img/homunnkurusu.jpg" alt="ホムンクルス">
+        <p>ホムンクルス</p>
+        <div class="links">
+          <a href="https://music.apple.com/jp/song/%E3%83%9B%E3%83%A0%E3%83%B3%E3%82%AF%E3%83%AB%E3%82%B9/1753191604" target="_blank">Apple Music</a>
+          <a href="https://youtu.be/ZhUa0CumyxQ?si=T9Y0o1TBOTfj75-p" target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="song">
+        <img src="img/odoriko.jpg" alt="踊り子">
+        <p>踊り子</p>
+        <div class="links">
+          <a href="https://music.apple.com/jp/song/%E8%B8%8A%E3%82%8A%E5%AD%90/1706828627" target="_blank">Apple Music</a>
+          <a href="https://youtu.be/7HgJIAUtICU?si=zfStROtZ6cbTPABn" target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="song">
+        <img src="img/sekainohimitu.jpg" alt="世界の秘密">
+        <p>世界の秘密</p>
+        <div class="links">
+          <a href="https://music.apple.com/jp/song/%E4%B8%96%E7%95%8C%E3%81%AE%E7%A7%98%E5%AF%86/1706830992" target="_blank">Apple Music</a>
+          <a href="https://youtu.be/xFoTFCHU70s?si=nT2qqKQBRTR7hBHR6" target="_blank">YouTube</a>
+        </div>
+      </div>
+
+      <div class="song">
+        <img src="img/taimuparadox.jpg" alt="タイムパラドックス">
+        <p>タイムパラドックス</p>
+        <div class="links">
+          <a href="https://music.apple.com/jp/song/%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%91%E3%83%A9%E3%83%89%E3%83%83%E3%82%AF%E3%82%B9/1721130445" target="_blank">Apple Music</a>
+          <a href="https://youtu.be/ewhRE-BvJCg?si=MLaNlV-CfMgcgewU" target="_blank">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
